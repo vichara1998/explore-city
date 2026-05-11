@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ad2"
+    android:isScrollContainer="true"
+    tools:context=".DiscriptionAdisham">
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:background="#B4FFFFFF"
+        android:text="History: The bungalow was built in 1931 by Sir Thomas Villiers, a British planter. Later in 1961, it was converted into a monastery by Catholic monks from Belgium"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232" />
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discription of Adisham Banglow"
+        android:textColor="#E91E63"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:background="#B4FFFFFF"
+        android:text="Chapel: The estate houses a tranquil chapel, featuring beautiful stained glass windows, intricate wood carvings, and religious artifacts. It serves as a place of worship and meditation."
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.842" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="#B4FFFFFF"
+        android:text="Surroundings: The estate is nestled amidst lush green tea plantations and misty mountains, creating a stunning natural backdrop."
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.455" />
+
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:background="#B4FFFFFF"
+        android:text="Gardens: The sprawling grounds of Adisham Bungalow are meticulously landscaped with well-manicured gardens, colorful flower beds, and a variety of trees, adding to its charm and tranquility."
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.561" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:background="#B4FFFFFF"
+        android:text="Architecture: The architectural style of Adisham Bungalow combines elements of Tudor and Jacobean design. It features red-brick walls, elegant chimneys, and tall, arched windows."
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="340dp"
+        android:layout_height="35dp"
+        android:background="#B4FFFFFF"
+        android:text="Location: Adisham Bungalow is situated in Haputale, a scenic town in the central highlands of Sri Lanka."
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.658"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="340dp"
+        android:layout_height="85dp"
+        android:background="#B4FFFFFF"
+        android:text="Interior: The interior of the bungalow is tastefully decorated with antique furniture, ornate chandeliers, and intricate woodwork. The rooms are spacious and adorned with plush carpets, comfortable sofas, and vintage paintings."
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.701" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="55dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="back"
+        android:backgroundTint="#90F3F3F3"
+        android:hapticFeedbackEnabled="false"
+        app:icon="@drawable/baseline_arrow_back_24"
+        app:iconTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

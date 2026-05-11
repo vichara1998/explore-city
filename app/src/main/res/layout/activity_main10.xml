@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".MainActivity10">
+
+    <Button
+        android:id="@+id/btnbw2"
+        android:layout_width="36dp"
+        android:layout_height="31dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:drawableRight="@drawable/baseline_arrow_back_ios_new_24"
+        android:onClick="btnbw"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.262" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="96dp"
+        android:layout_height="129dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnuser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.51"
+        app:srcCompat="@drawable/ls1" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="96dp"
+        android:layout_height="129dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnuser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.51"
+        app:srcCompat="@drawable/ls1" />
+
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="355dp"
+        android:layout_height="34dp"
+        android:iconifiedByDefault="false"
+        android:queryBackground="@color/white"
+        android:queryHint="Search..."
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="357dp"
+        android:layout_height="120dp"
+        android:background="#60FFFFFF"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Lipton's Seat is a viewpoint located in the Haputale mountain range of Sri Lanka, named after Sir Thomas Lipton, a British tea planter. It offers visitors panoramic views of the hills and valleys, and is known for its spectacular sunrise and sunset views. Visitors must hike through tea plantations and forests to reach the viewpoint, and can learn about tea cultivation and processing, as well as the life of Sir Thomas Lipton, through guided tours and exhibits at the tea shop."
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.608" />
+
+
+    <Button
+        android:id="@+id/btnlogout"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="88dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:hapticFeedbackEnabled="false"
+        android:onClick="logout"
+        app:icon="@drawable/baseline_logout_24"
+        app:iconSize="50dp"
+        app:iconTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnuser"
+        app:layout_constraintHorizontal_bias="0.623"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.974" />
+
+    <Button
+        android:id="@+id/btnuser"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00000000"
+        android:onClick="user"
+        app:icon="@drawable/baseline_account_circle_24"
+        app:iconSize="48dp"
+        app:iconTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnlocation"
+        app:layout_constraintHorizontal_bias="0.637"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <Button
+        android:id="@+id/btnlocation"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="location"
+        app:icon="@drawable/baseline_location_on_24"
+        app:iconSize="50dp"
+        app:iconTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="96dp"
+        android:layout_height="129dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnuser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.51"
+        app:srcCompat="@drawable/ls2" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="288dp"
+        android:layout_height="182dp"
+        android:background="#00FFFFFF"
+        android:onClick="btnls3"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.198"
+        app:srcCompat="@drawable/ls3" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

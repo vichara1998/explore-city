@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/explore"
+        android:label="ExploreCity"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ExploreCityApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".NinearchGallery"
+            android:exported="false" />
+        <activity
+            android:name=".DiscriptionAdisham"
+            android:exported="false" />
+        <activity
+            android:name=".DiscriptionNine"
+            android:exported="false" />
+        <activity
+            android:name=".DiscriptionLipton"
+            android:exported="false" />
+        <activity
+            android:name=".Forgotpassword"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD9K44rtDiw7fX57PqREdI8pZ3f2FskrOQ" />
+
+        <activity
+            android:name=".Compass"
+            android:exported="false" />
+        <activity
+            android:name=".AdishamBanglow"
+            android:exported="false"
+            android:label="@string/title_activity_adisham_banglow" />
+        <activity
+            android:name=".Liptonseat"
+            android:exported="false"
+            android:label="@string/title_activity_liptonseat" />
+        <activity
+            android:name=".Ninearch"
+            android:exported="false"
+            android:label="@string/title_activity_ninearch" />
+        <activity
+            android:name=".MainActivity11"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity10"
+            android:exported="false" />
+        <activity
+            android:name=".Liptonvideo"
+            android:exported="false" />
+        <activity
+            android:name=".Ninevideo"
+            android:exported="false" />
+        <activity
+            android:name=".Addismvideo"
+            android:exported="false" />
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".Adishamsub"
+            android:exported="false" />
+        <activity
+            android:name=".Liptonsub"
+            android:exported="false" />
+        <activity
+            android:name=".Ninesub"
+            android:exported="false" />
+        <activity
+            android:name=".Createaccount"
+            android:exported="false" />
+        <activity
+            android:name=".Signin"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
