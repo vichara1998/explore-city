@@ -26,7 +26,9 @@ public class Compass extends AppCompatActivity implements SensorEventListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_compass);
         // Hide ActionBar
-        getSupportActionBar().hide();
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
 
         compassimage = (ImageView) findViewById(R.id.compass_image);
         // TextView that will display the degree
