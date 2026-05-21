@@ -125,7 +125,13 @@ public class MainActivity10 extends AppCompatActivity  {
         startActivity(intent);
         overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
     }
-    public void userbtn(View view) {
+    public void btnfw(View view) {
+        Intent intent = new Intent(this, MainActivity11.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+    }
+
+    public void user(View view) {
         startActivity(new Intent(this, Profile.class));
     }
 
