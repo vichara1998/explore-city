@@ -39,7 +39,7 @@ This project underwent a significant performance and UI overhaul:
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/vichara1998/explore-city.git)
+    git clone https://github.com/vichara1998/explore-city.git
     ```
 2.  **Open in Android Studio**
     *   File > Open > Select `ExploreCityapp` folder.
