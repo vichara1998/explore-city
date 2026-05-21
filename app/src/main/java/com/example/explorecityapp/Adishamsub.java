@@ -15,8 +15,11 @@ public class Adishamsub extends AppCompatActivity {
         setContentView(R.layout.activity_adishamsub);
 
         //Hide  the ActionBar
+        // Hide the ActionBar
         ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+        if (actionBar != null) {
+            actionBar.hide();
+        }
 
     }
 
