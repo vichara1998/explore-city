@@ -33,7 +33,17 @@ public class Liptonsub extends AppCompatActivity {
     }
 
     public void backbutton(View view) {
+        finish();
+    }
 
-        startActivity(new Intent(this, MainActivity10.class));
+    public void homebutton(View view) {
+        Intent intent = new Intent(this, MainActivity11.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+        finish();
+    }
+
+    public void discriptionLipton(View view) {
+        startActivity(new Intent(this, DiscriptionLipton.class));
     }
 }
