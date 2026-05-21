@@ -42,7 +42,9 @@ public class Profile extends AppCompatActivity {
         deleteData();
 
         //hide actionbar
-        getSupportActionBar().hide();
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
     }
 
     public void delete(View view) {
