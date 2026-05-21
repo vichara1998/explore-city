@@ -66,9 +66,11 @@
             android:label="@string/title_activity_ninearch" />
         <activity
             android:name=".MainActivity11"
+            android:windowSoftInputMode="stateHidden"
             android:exported="false" />
         <activity
             android:name=".MainActivity10"
+            android:windowSoftInputMode="stateHidden"
             android:exported="false" />
         <activity
             android:name=".Liptonvideo"
@@ -85,6 +87,7 @@
             android:label="@string/title_activity_maps" />
         <activity
             android:name=".MainActivity4"
+            android:windowSoftInputMode="stateHidden"
             android:exported="false" />
         <activity
             android:name=".Adishamsub"
