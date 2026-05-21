@@ -19,11 +19,18 @@ public class Signin extends AppCompatActivity {
 
         // Hide the ActionBar
         ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+        if (actionBar != null) {
+            actionBar.hide();
+        }
     }
     public void forgotpass(View view) {
         startActivity(new Intent(this, Forgotpassword.class));
     }
+
+    public void signupbtn(View view) {
+        startActivity(new Intent(this, Createaccount.class));
+    }
+
     public void signinbtn(View view) {
 
         EditText Email = findViewById(R.id.enteremail);
