@@ -41,7 +41,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-    //Create an new account
+    //Create a new account
     public boolean insertData(String firstname, String lastname, String email, String password) {
         SQLiteDatabase database = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
