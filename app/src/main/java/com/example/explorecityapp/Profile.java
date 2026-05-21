@@ -41,6 +41,15 @@ public class Profile extends AppCompatActivity {
         //updateData();
         deleteData();
 
+        // Setup Toolbar
+        androidx.appcompat.widget.Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
+
         //hide actionbar
         if (getSupportActionBar() != null) {
             getSupportActionBar().hide();
