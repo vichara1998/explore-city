@@ -16,7 +16,9 @@ public class Liptonsub extends AppCompatActivity {
 
         //Hide  the ActionBar
         ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+        if (actionBar != null) {
+            actionBar.hide();
+        }
     }
 
     public void liptonvideo(View view) {
