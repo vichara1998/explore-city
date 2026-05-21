@@ -22,7 +22,9 @@ EditText enteremail,editpassword;
 
         // Hide the ActionBar
         ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+        if (actionBar != null) {
+            actionBar.hide();
+        }
 
         mydb =new DatabaseHelper(this);
 
@@ -35,6 +37,11 @@ EditText enteremail,editpassword;
         btnReset =findViewById(R.id.btnReset);
         updateData();
     }
+
+    public void backbtn(View view) {
+        finish();
+    }
+
     public void updateData(){
         btnReset.setOnClickListener(new View.OnClickListener() {
     @Override
