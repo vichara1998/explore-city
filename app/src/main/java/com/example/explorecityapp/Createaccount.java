@@ -49,7 +49,9 @@ public class Createaccount extends AppCompatActivity {
        // deleteData();
 
         //hide actionbar
-        getSupportActionBar().hide();
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
 
     }
     public void addData() {
@@ -77,7 +79,7 @@ public class Createaccount extends AppCompatActivity {
                         Toast.makeText(Createaccount.this, "Account Created", Toast.LENGTH_LONG).show();
 
                         //go to main window
-                        Intent intent = new Intent(Createaccount.this, MainActivity.class);
+                        Intent intent = new Intent(Createaccount.this, Signin.class);
                         startActivity(intent);
 
                     } else {
@@ -86,6 +88,11 @@ public class Createaccount extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    public void signinbtn(View view) {
+        Intent intent = new Intent(Createaccount.this, Signin.class);
+        startActivity(intent);
     }
 
 
