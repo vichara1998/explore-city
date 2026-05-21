@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Liptonvideo extends AppCompatActivity {
@@ -35,7 +36,10 @@ public class Liptonvideo extends AppCompatActivity {
                 View.SYSTEM_UI_FLAG_FULLSCREEN |
                         View.SYSTEM_UI_FLAG_HIDE_NAVIGATION |
                         View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
-        getSupportActionBar().hide();
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.hide();
+        }
 
 
     }
