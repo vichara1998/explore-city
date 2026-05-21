@@ -23,7 +23,9 @@ public class MainActivity4 extends AppCompatActivity {
 
         //Hide  the ActionBar
         ActionBar actionBar = getSupportActionBar();
-        actionBar.hide();
+        if (actionBar != null) {
+            actionBar.hide();
+        }
 
 
         // Initialize the SearchView
