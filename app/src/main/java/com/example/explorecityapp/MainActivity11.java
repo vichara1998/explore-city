@@ -108,7 +108,7 @@ public class MainActivity11 extends AppCompatActivity {
 
     public void btnad3(View view) {
 
-        startActivity(new Intent(this, Adishamsub.class));
+        startActivity(new Intent(this, AdishamSub.class));
     }
 
     public void btnfw(View view) {

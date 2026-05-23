@@ -29,7 +29,7 @@
             android:name=".DiscriptionLipton"
             android:exported="false" />
         <activity
-            android:name=".Forgotpassword"
+            android:name=".ForgotPassword"
             android:exported="false" />
         <activity
             android:name=".Profile"
@@ -61,7 +61,7 @@
             android:exported="false"
             android:label="@string/title_activity_liptonseat" />
         <activity
-            android:name=".Ninearch"
+            android:name=".NineArch"
             android:exported="false"
             android:label="@string/title_activity_ninearch" />
         <activity
@@ -73,13 +73,13 @@
             android:windowSoftInputMode="stateHidden"
             android:exported="false" />
         <activity
-            android:name=".Liptonvideo"
+            android:name=".LiptonVideo"
             android:exported="false" />
         <activity
-            android:name=".Ninevideo"
+            android:name=".NineVideo"
             android:exported="false" />
         <activity
-            android:name=".Addismvideo"
+            android:name=".AddismVideo"
             android:exported="false" />
         <activity
             android:name=".MapsActivity"
@@ -90,16 +90,16 @@
             android:windowSoftInputMode="stateHidden"
             android:exported="false" />
         <activity
-            android:name=".Adishamsub"
+            android:name=".AdishamSub"
             android:exported="false" />
         <activity
             android:name=".Liptonsub"
             android:exported="false" />
         <activity
-            android:name=".Ninesub"
+            android:name=".NineSub"
             android:exported="false" />
         <activity
-            android:name=".Createaccount"
+            android:name=".CreateAccount"
             android:exported="false" />
         <activity
             android:name=".Signin"

@@ -8,7 +8,7 @@ import android.widget.VideoView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Ninevideo extends AppCompatActivity {
+public class NineVideo extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

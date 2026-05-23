@@ -30,6 +30,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void createbtn(View view) {
 
-        startActivity(new Intent(this, Createaccount.class));
+        startActivity(new Intent(this, CreateAccount.class));
     }
 }

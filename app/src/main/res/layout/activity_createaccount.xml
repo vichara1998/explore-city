@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/pi"
-    tools:context=".Createaccount">
+    tools:context=".CreateAccount">
 
     <!-- Dark Overlay for better contrast -->
     <View

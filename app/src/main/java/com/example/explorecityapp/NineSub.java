@@ -7,7 +7,7 @@ import android.view.View;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Ninesub extends AppCompatActivity {
+public class NineSub extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,12 +23,12 @@ public class Ninesub extends AppCompatActivity {
 
     public void videoad(View view) {
 
-        startActivity(new Intent(this, Ninevideo.class));
+        startActivity(new Intent(this, NineVideo.class));
     }
 
     public void ninemap(View view) {
 
-        startActivity(new Intent(this, Ninearch.class));
+        startActivity(new Intent(this, NineArch.class));
     }
 
     public void backbutton(View view) {

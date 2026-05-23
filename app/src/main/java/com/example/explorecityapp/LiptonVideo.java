@@ -6,21 +6,24 @@ import android.view.View;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Addismvideo extends AppCompatActivity {
+public class LiptonVideo extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_addismvideo);
+        setContentView(R.layout.activity_liptonvideo);
 
-        VideoView videoView = findViewById(R.id.videoad);
-        videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.addism1);
+        VideoView videoView =findViewById(R.id.videolipton);
+        videoView.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.lipton2);
+
 
         MediaController mediaController = new MediaController(this);
-        mediaController.setMediaPlayer(videoView);
+        mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
+
 
         videoView.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
@@ -28,14 +31,14 @@ public class Addismvideo extends AppCompatActivity {
                 finish();
             }
         });
-
-        // Hide the status bar and action bar
+// Hide the status bar and action bar
         getWindow().getDecorView().setSystemUiVisibility(
                 View.SYSTEM_UI_FLAG_FULLSCREEN |
                         View.SYSTEM_UI_FLAG_HIDE_NAVIGATION |
                         View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
-        if (getSupportActionBar() != null) {
-            getSupportActionBar().hide();
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.hide();
         }
 
 

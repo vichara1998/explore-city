@@ -105,7 +105,7 @@ public class MainActivity4 extends AppCompatActivity {
 
     public void btnar1(View view) {
 
-        startActivity(new Intent(this, Ninesub.class));
+        startActivity(new Intent(this, NineSub.class));
     }
 
 

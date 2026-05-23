@@ -24,7 +24,7 @@ public class Liptonsub extends AppCompatActivity {
     public void liptonvideo(View view) {
 
 
-        startActivity(new Intent(this, Liptonvideo.class));
+        startActivity(new Intent(this, LiptonVideo.class));
     }
 
     public void liptonmap(View view) {

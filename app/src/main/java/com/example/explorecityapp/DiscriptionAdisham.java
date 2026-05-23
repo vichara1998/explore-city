@@ -24,6 +24,6 @@ public class DiscriptionAdisham extends AppCompatActivity {
 
     public void back(View view) {
 
-        startActivity(new Intent(this, Adishamsub.class));
+        startActivity(new Intent(this, AdishamSub.class));
     }
 }

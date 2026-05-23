@@ -35,7 +35,7 @@ public class NinearchGallery extends AppCompatActivity {
     }
 
     public void back(View view) {
-        startActivity(new Intent(this, Ninesub.class));
+        startActivity(new Intent(this, NineSub.class));
     }
 }
 

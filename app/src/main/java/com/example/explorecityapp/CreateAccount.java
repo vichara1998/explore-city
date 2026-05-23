@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Createaccount extends AppCompatActivity {
+public class CreateAccount extends AppCompatActivity {
 
     DatabaseHelper mydb;
     EditText editfirstname,editlastname,editemail,editpassword,enteremail;
@@ -64,7 +64,7 @@ public class Createaccount extends AppCompatActivity {
                         editlastname.getText().toString().isEmpty() ||
                         editemail.getText().toString().isEmpty() ||
                         editpassword.getText().toString().isEmpty()) {
-                    Toast.makeText(Createaccount.this, "Please fill in all fields", Toast.LENGTH_LONG).show();
+                    Toast.makeText(CreateAccount.this, "Please fill in all fields", Toast.LENGTH_LONG).show();
 
                     //All text fields fill  (Yes)
                 } else {
@@ -76,14 +76,14 @@ public class Createaccount extends AppCompatActivity {
 
                     if (isInserted) {
                         //message
-                        Toast.makeText(Createaccount.this, "Account Created", Toast.LENGTH_LONG).show();
+                        Toast.makeText(CreateAccount.this, "Account Created", Toast.LENGTH_LONG).show();
 
                         //go to main window
-                        Intent intent = new Intent(Createaccount.this, Signin.class);
+                        Intent intent = new Intent(CreateAccount.this, Signin.class);
                         startActivity(intent);
 
                     } else {
-                        Toast.makeText(Createaccount.this, "Account Creation Failed", Toast.LENGTH_LONG).show();
+                        Toast.makeText(CreateAccount.this, "Account Creation Failed", Toast.LENGTH_LONG).show();
                     }
                 }
             }
@@ -91,7 +91,7 @@ public class Createaccount extends AppCompatActivity {
     }
 
     public void signinbtn(View view) {
-        Intent intent = new Intent(Createaccount.this, Signin.class);
+        Intent intent = new Intent(CreateAccount.this, Signin.class);
         startActivity(intent);
     }
 

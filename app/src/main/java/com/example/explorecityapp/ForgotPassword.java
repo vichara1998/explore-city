@@ -9,7 +9,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Forgotpassword extends AppCompatActivity {
+public class ForgotPassword extends AppCompatActivity {
 
 DatabaseHelper mydb;
 Button btnReset;
@@ -51,9 +51,9 @@ EditText enteremail,editpassword;
      enteremail.getText().toString(),
        editpassword.getText().toString());
       if(isUpdate == true)
-           Toast.makeText(Forgotpassword.this, "Password Reset Successfully!",Toast.LENGTH_LONG).show();
+           Toast.makeText(ForgotPassword.this, "Password Reset Successfully!",Toast.LENGTH_LONG).show();
        else
-         Toast.makeText(Forgotpassword.this ,"Error!",Toast.LENGTH_LONG).show();
+         Toast.makeText(ForgotPassword.this ,"Error!",Toast.LENGTH_LONG).show();
 
 
       }

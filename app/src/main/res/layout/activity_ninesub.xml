@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/login"
-    tools:context=".Ninesub">
+    tools:context=".NineSub">
 
     <!-- Dark Overlay for better contrast -->
     <View

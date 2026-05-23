@@ -24,11 +24,11 @@ public class Signin extends AppCompatActivity {
         }
     }
     public void forgotpass(View view) {
-        startActivity(new Intent(this, Forgotpassword.class));
+        startActivity(new Intent(this, ForgotPassword.class));
     }
 
     public void signupbtn(View view) {
-        startActivity(new Intent(this, Createaccount.class));
+        startActivity(new Intent(this, CreateAccount.class));
     }
 
     public void signinbtn(View view) {
